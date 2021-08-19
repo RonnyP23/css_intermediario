@@ -1,0 +1,131 @@
+/* limpár formataçao padrao*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-size: 1em;
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	background: #ed7e7e;
+}
+
+
+/* -----------------------------------layout---------------------------------------- */
+#area-cabeçalho{
+	border: 1px solid black;
+	background-color: #7e83ed;
+	padding: 15px;
+	text-align: center;
+
+}
+#area-logo , #area-menu{
+	padding: 10px;
+
+}
+#area-principal{
+	border: 1px solid black;
+	padding: 10px;
+	width: 720px;
+	margin: 10px auto;
+	background-color:white ;
+
+}
+#area-postagens ,#area-lateral{
+	background-color: #c2c4f2;
+
+}
+#area-postagens{
+	border: 1px solid black;
+	float: left;
+	width: 390px;
+	margin: 10px;
+	padding: 10px;
+
+}
+#area-lateral{
+	border: 1px solid black;
+	float: right;
+	width: 140px;
+	margin: 10px;
+	padding: 10px;
+	float: right;
+}
+
+#area-rodape{
+	background: #d075d1;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+#postagem-lateral{
+	border: 1px solid red;
+	float: left;
+	width:255px;
+	padding: 10px;
+
+	
+	}/*----------------------------------formataçoes gerais------------------------------*/
+#postagem-lateral img {width: 200px;
+					   }
+h1{
+	color: white;
+	font-size: 2.5em;
+
+}
+h2{
+	color: white;
+}
+
+.preto{ 
+	color: black;
+
+
+
+}
+.data-postagens{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin: 10px;
+	display: block;
+
+}
+.postagem{
+	margin: 10px;
+	padding: 10px;
+
+}
+.rodape-post-lat{ 
+	border: 1px solid black;
+	width: 235px;
+	float: left;
+	height: 205px;
+	background-color: #c2c4f2;
+
+
+
+
+}
+/*----------------------------------formataçao do menu --------------------------*/
+
+a:link{
+	text-decoration: none;
+}
+a:link , a:visited{
+	color: #f7b600;
+	padding: 8px 12px;
+}
+a:hover{
+	color: orange;
+	background: white;
+	text-decoration: underline;
+}
+#area-cabeçalho a:link ,  #area-cabeçalho a:visited{
+	color: black;
+	padding: 8px 12px;}
+#area-cabeçalho{
+	color:black ;
+	text-decoration: none;
+}
